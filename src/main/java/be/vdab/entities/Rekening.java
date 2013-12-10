@@ -1,6 +1,7 @@
 package be.vdab.entities;
 
 import java.math.BigDecimal;
+import java.util.Date;
 
 /**
  * Een rekening van een bank
@@ -10,6 +11,7 @@ import java.math.BigDecimal;
  */
 public class Rekening {
 	private BigDecimal saldo = BigDecimal.ZERO;
+	private Date creatie;
 	/**
 	 * Het saldo ophalen
 	 * 
