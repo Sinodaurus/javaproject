@@ -29,4 +29,18 @@
   		</plugin>
   	</plugins>
   </reporting>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.codehaus.mojo</groupId>
+  			<artifactId>cobertura-maven-plugin</artifactId>
+  			<version>2.5.1</version>
+  			<configuration>
+  				<formats>
+  					<format>xml</format>
+  				</formats>
+  			</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
 </project>

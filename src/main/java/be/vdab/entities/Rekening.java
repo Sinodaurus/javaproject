@@ -20,4 +20,11 @@ public class Rekening {
 	public BigDecimal getSaldo(){
 		return saldo;
 	}
+	
+	public Date getCreatie() {
+		return creatie;
+	}
+	public void setCreatie(Date creatie) {
+		this.creatie = creatie;
+	}
 }
